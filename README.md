@@ -1,3 +1,4 @@
+
 # Crypto Trading Platform
 
 This project is a cryptocurrency trading platform developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The platform offers real-time cryptocurrency data, portfolio management, transaction history, and a news integration feature, all in one place.
@@ -30,57 +31,58 @@ Follow the steps below to run the project locally:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/crypto-trading-platform.git
-cd crypto-trading-platform
-Backend Setup
-Install the dependencies for the backend:
+git clone https://github.com/okesh1215/Crypto-Trading-Platform-MERN-Stack-with-Real-Time-Data-related-news-and-Social-Features.git
 
-bash
-Copy
-Edit
+cd Crypto-Trading-Platform-MERN-Stack-with-Real-Time-Data-related-news-and-Social-Features
+```
+
+### Backend Setup
+Install the dependencies for the backend:
+```bash
 cd backend
 npm install
-Create a .env file in the backend folder and add the following:
+```
 
-makefile
-Copy
-Edit
+Create a `.env` file in the backend folder and add the following:
+
+```makefile
 PORT=5000
 MONGO_URI=<your_mongo_db_connection_string>
 COINGECKO_API_KEY=<your_coingecko_api_key>
 NEWS_API_KEY=<your_news_api_key>
+```
+
 Run the backend server:
-
-bash
-Copy
-Edit
+```bash
 npm start
-Frontend Setup
-Install the dependencies for the frontend:
+```
 
-bash
-Copy
-Edit
+### Frontend Setup
+Install the dependencies for the frontend:
+```bash
 cd frontend
 npm install
+```
+
 Run the frontend development server:
-
-bash
-Copy
-Edit
+```bash
 npm start
-Accessing the Platform
-Once both the backend and frontend servers are running, open your browser and visit http://localhost:3000 to access the application.
+```
 
-Usage
-Sign up / Log in: Create an account or log in using the provided credentials.
-Add Coins: Add your preferred cryptocurrencies to your portfolio and track their prices.
-View News: Read the latest cryptocurrency news from integrated blog sources.
-Manage Portfolio: View your portfolio with available coins, quantities, and their real-time prices.
-Track Transactions: View your transaction history and manage your crypto investments.
-Future Improvements
-AI-based Portfolio Management: Implement machine learning models to suggest optimized portfolios.
-Advanced Analytics: Incorporate advanced data visualization tools to display price trends, predictions, and portfolio performance.
-Mobile App: Extend the platform with a mobile version for Android and iOS.
-Contributing
+### Accessing the Platform
+Once both the backend and frontend servers are running, open your browser and visit `http://localhost:3000` to access the application.
+
+## Usage
+- **Sign up / Log in**: Create an account or log in using the provided credentials.
+- **Add Coins**: Add your preferred cryptocurrencies to your portfolio and track their prices.
+- **View News**: Read the latest cryptocurrency news from integrated blog sources.
+- **Manage Portfolio**: View your portfolio with available coins, quantities, and their real-time prices.
+- **Track Transactions**: View your transaction history and manage your crypto investments.
+
+## Future Improvements
+- **AI-based Portfolio Management**: Implement machine learning models to suggest optimized portfolios.
+- **Advanced Analytics**: Incorporate advanced data visualization tools to display price trends, predictions, and portfolio performance.
+- **Mobile App**: Extend the platform with a mobile version for Android and iOS.
+
+## Contributing
 Feel free to fork the repository, make changes, and submit a pull request. Contributions are always welcome!
